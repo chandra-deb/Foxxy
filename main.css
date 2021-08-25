@@ -3,12 +3,21 @@ section {
 }
 
 #hero {
+  border-radius: 1.5rem;
   background: #FC5C7D;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-gradient(linear, left top, right top, from(#6A82FB), to(#FC5C7D));
   background: linear-gradient(to right, #6A82FB, #FC5C7D);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-radius: 1.5rem;
+}
+
+.brand-gradient {
+  color: #FC5C7D;
+  /* fallback for old browsers */
+  color: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);
+  /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(to right, #6A82FB, #FC5C7D);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 /*# sourceMappingURL=main.css.map */
