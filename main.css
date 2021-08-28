@@ -30,4 +30,9 @@ section {
   background-color: #FC5C7D;
   color: white;
 }
+
+a {
+  color: #FC5C7D;
+  text-decoration: none;
+}
 /*# sourceMappingURL=main.css.map */
