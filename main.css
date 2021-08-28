@@ -20,4 +20,14 @@ section {
   color: linear-gradient(to right, #6A82FB, #FC5C7D);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.custom-btn {
+  border: 2px solid #FC5C7D;
+  border-radius: 10px;
+}
+
+.custom-btn:hover {
+  background-color: #FC5C7D;
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */
